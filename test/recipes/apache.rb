@@ -13,3 +13,10 @@ directory "/srv/www/shared" do
   recursive true
   action :create
 end
+
+file '/tmp/something' do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
+end
