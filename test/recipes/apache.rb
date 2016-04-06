@@ -14,7 +14,8 @@ directory "/srv/www/shared" do
   action :create
 end
 
-file '/tmp/something' do
+file '/var/www/html/index.html' do
+  content '<html>This is a placeholder for the home page.</html>'
   owner 'root'
   group 'root'
   mode '0755'
