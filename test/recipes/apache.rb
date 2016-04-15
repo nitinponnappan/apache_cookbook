@@ -15,7 +15,7 @@ directory "/srv/www/shared" do
 end
 
 file '/var/www/html/index.html' do
-  content '<html>This is a placeholder for the home page NITIN PONNAPPAN.</html>'
+  content '<html>My am getting angry.</html>'
   owner 'root'
   group 'root'
   mode '0755'
